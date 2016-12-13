@@ -1,4 +1,5 @@
-from distutils.core import setup
+from setuptools import setup
+
 
 setup(
     name='isoparser',
@@ -9,4 +10,6 @@ setup(
     license='MIT',
     description='Parser for the ISO 9660 disk image format',
     packages=["isoparser"],
+    install_requires=["six"],
+    test_suite="isoparser.test",
 )
