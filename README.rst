@@ -1,5 +1,7 @@
 isoparser
 =========
+.. image:: https://travis-ci.org/zeroos/isoparser.svg?branch=master
+    :target: https://travis-ci.org/zeroos/isoparser
 
 This python library can parse the `ISO 9660`_ disk image format including
 `Rock Ridge`_ extensions. It can load ISOs from the local filesystem or via
